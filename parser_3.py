@@ -15,7 +15,7 @@ if __name__ == "__main__":
         help='enter target files')
     parser.add_argument(
         "-a", "--all",
-        help='target ALL .xml files in current directory'
+        help='target all .xml files in current directory'
     )
 
     args = parser.parse_args()
