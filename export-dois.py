@@ -12,7 +12,6 @@ def search_doi(file_list):
             for doi in lst_dois:
                 doi_dump.append(doi.text)
 
-
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description='Export DOIs from xml files')
