@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article>
+    <front>
+        <article-meta>
+            <article-title>How to extract DOIs from multiple files 3</article-title>
+            <article-id pub-id-type="doi">https://doi.org/10.17885/heiup.995</article-id>
+        </article-meta>
+    </front>
+    <body>
+        <sec>
+            <title>Lorem ipsum</title>
+            <p>... dolor sit amet</p>
+        </sec>
+    </body>
+    <back>
+        <fn-group>
+            <fn id="fn123">
+                <p>La di da.</p>
+            </fn>
+        </fn-group>
+    </back>
+</article>
