@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 
 doi_dump = []
 
-def main(file_list):
+def search_doi(file_list):
  for filename in file_list:
         with open(filename, 'r', encoding="utf-8") as content:
             tree = ET.parse(content)
@@ -27,10 +27,10 @@ if __name__ == "__main__":
 
     if args.files:
         file_list = args.files
-        main(file_list)
+        search_doi(file_list)
     else:
         file_list = glob.glob("*.xml")
-        main(file_list)
+        search_doi(file_list)
 
 with open('chapter_dois.txt', 'w') as f:
     for i in doi_dump:
