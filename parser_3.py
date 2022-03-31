@@ -29,11 +29,14 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    file_list = args.files
+    if args.files:
+        file_list = args.files
+        main(file_list)
+    else:
+        file_list = glob.glob("*.xml")
+        main(file_list)
 
-    main(file_list)
-
-    """filenames = glob.glob("*.xml")  # change the pattern to match your case"""
+    """file_list = glob.glob("*.xml")  # change the pattern to match your case"""
 
 
 with open('chapter_dois.txt', 'w') as f:
