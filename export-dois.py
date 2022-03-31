@@ -41,6 +41,6 @@ with open('chapter_dois.txt', 'w') as f:
         f.write(i)
         f.write('\n')
 
-print("-------> \n-------> DOIs extracted: \n------->")
+print("-------> DOIs extracted:")
 for item in doi_dump:
     print(item)
