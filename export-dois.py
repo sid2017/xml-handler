@@ -36,9 +36,6 @@ if __name__ == "__main__":
         file_list = glob.glob("*.xml")
         main(file_list)
 
-    """file_list = glob.glob("*.xml")  # change the pattern to match your case"""
-
-
 with open('chapter_dois.txt', 'w') as f:
     for i in doi_dump:
         f.write(i)
