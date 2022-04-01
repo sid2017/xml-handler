@@ -15,7 +15,7 @@ def search_doi(file_list):
 
 if __name__ == "__main__":
 
-    # Prase CLI argmuments
+    # Parse CLI argmuments
     parser = argparse.ArgumentParser(description='Export DOIs from xml files')
 
     parser.add_argument(
